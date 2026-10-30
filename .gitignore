@@ -39,3 +39,44 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Private uploaded files
+/storage/
+
+
+# Contract test attachments
+/.contract-test-attachments/
+
+# Local PostgreSQL backups
+/*.backup
+
+
+# Application logs
+/logs/
+*.log
+
+# Database dumps and backups
+*.backup
+*.dump
+*.sql.gz
+*.bak
+
+# Local database exports
+/backups/
+/database-backups/
+
+# Sensitive local files
+*.key
+*.p12
+*.pfx
+
+# Local environment configuration
+.env
+.env.local
+.env.production
+.env.production.local
+
+# Private uploaded documents
+/uploads/
+/private/
